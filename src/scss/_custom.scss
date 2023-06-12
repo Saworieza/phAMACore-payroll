@@ -1,0 +1,196 @@
+// Here you can add other styles
+$body-font-family: 'Nunito Sans',
+sans-serif;
+$body-bg-color: #eef5f9;
+$template-text-color: #47404f;
+$corebase-color: #C58C4f;
+// $primary-color: #F58B40;
+$primary-color: #2962ff;
+$pragraph-color: #51575d;
+$border-color: #ebebee;
+$danger-color: #ff3547;
+$global-color: #47404f;
+$gray-color: #a1aab2;
+
+body {
+  font-size: 12px !important;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.required {
+  border: 1px solid red !important;
+}
+
+.footer {
+  background: #fff !important;
+  padding: 10px 30px !important;
+  text-align: center !important;
+  -webkit-clip-path: polygon(1% 0, 99% 0, 100% 100%, 0% 100%) !important;
+  clip-path: polygon(2% 0, 99% 0, 100% 100%, 0% 100%) !important;
+  border-radius: 30px 30px 0 0 !important;
+
+  p {
+    margin: 0 !important;
+    color: #5a5151 !important;
+    text-align: center !important;
+    font-size: 10px !important;
+    font-weight: 600 !important;
+
+    a {
+      color: $corebase-color !important;
+
+      &:hover {
+        text-decoration: underline !important;
+      }
+    }
+  }
+}
+
+/**** Material Table UI styles *****/
+
+.MuiIconButton-root {
+
+  padding: 0rem !important;
+
+}
+
+.MuiTableCell-root {
+  padding: 0px !important;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+  font-size: 10px !important;
+  line-height: 2 !important;
+  border: 1px solid #dedede !important;
+
+}
+
+.MuiTableCell-head {
+  background-color: #f3f6f9 !important;
+  font-weight: bold !important;
+  border-bottom: 2px solid rgba(224, 224, 224, 1) !important;
+  line-height: 1 !important;
+  padding: 3px !important;
+
+}
+
+.MTableToolbar-highlight {
+  color: #ffffff;
+  background-color: rgb(255 255 255);
+}
+
+
+.MuiInput-underline:hover:not(.Mui-disabled):before {
+  border-bottom: none !important;
+}
+
+.MuiInput-underline:before {
+  content: none !important;
+}
+
+.MuiSvgIcon-fontSizeSmall {
+  font-size: 12px !important;
+}
+
+.MuiInputBase-root {
+  font-size: 12px !important;
+}
+
+.MuiPaper-elevation2 {
+  box-shadow: none !important;
+}
+
+.MuiToolbar-gutters {
+  padding: 0 !important;
+}
+
+@media (min-width: 600px) {
+  .MuiToolbar-regular {
+    // min-height: 45px !important;
+    min-height: 0px !important;
+    margin-bottom: 10px !important;
+  }
+}
+
+.bg-cover {
+  // background-image: url('https://landkit.goodthemes.co/assets/img/covers/cover-14.jpg');
+  background-image: url('../assets/images/login-cover1.jpeg');
+  // background-image: url('../assets/images/login-cover.jpg');
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.auth-input,
+.auth-input-lg {
+  font-size: 12px !important;
+  padding: 14px 16px !important;
+}
+
+.auth-input:focus,
+.auth-input-lg:focus {
+  border: 1px solid #c58c4f !important;
+}
+
+.auth-btn {
+  background-color: #c58c4f !important;
+  color: #fff !important;
+  font-size: 14px !important;
+  padding-bottom: 10px !important;
+  padding-top: 10px !important;
+}
+
+.profile {
+  font-size: 10px !important;
+  background-color: transparent !important;
+  border: none !important;
+  color: #C58C4f !important;
+  // color: #F58B40 !important;
+  font-weight: bold !important;
+}
+
+.logout {
+  font-size: 12px !important;
+}
+
+.logout:hover {
+  background-color: #F58B40 !important;
+  cursor: pointer !important;
+  color: white !important;
+}
+
+.reverse-btn {
+  font-size: 10px !important;
+  border: 1px solid #28A745 !important;
+  color: #28A745 !important;
+}
+
+.reverse-btn:hover {
+  font-size: 10px !important;
+  border: 1px solid #28A745 !important;
+  // background-color: #28A745;
+  // color: white !important;
+}
+
+.modal-header .btn-close {
+  padding: 0.5rem 0.5rem;
+  margin: -0.5rem -0.5rem -0.5rem auto;
+  display: none !important;
+}
+
+.modal-content {
+  border-radius: 0rem !important;
+}
+
+.modal-title,
+.offcanvas-title {
+  color: #C58C4F;
+  font-size: 14px !important;
+}
+
+// input[type=text]:focus,
+// input[type=password]:focus {
+//   @include box-shadow(0 0 5px #c58c4f !important);
+//   // padding: 3px 0px 3px 3px;
+//   // margin: 5px 1px 3px 0px;
+//   border: 1px solid #c58c4f !important;
+// }
